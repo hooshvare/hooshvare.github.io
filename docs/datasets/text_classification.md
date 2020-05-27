@@ -3,6 +3,7 @@ layout: default
 title: Text Classification
 parent: Datasets
 nav_order: 6
+permalink: /docs/datasets/tc
 ---
 
 # Persian Text Classification

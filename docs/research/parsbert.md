@@ -3,6 +3,7 @@ layout: default
 title: ParsBERT
 parent: Research
 nav_order: 6
+permalink: /docs/research/parsbert
 ---
 
 # Navigation Structure

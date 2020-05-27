@@ -5,7 +5,7 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: "Hooshvare Research Lab"
 permalink: /
 ---
 
@@ -23,14 +23,14 @@ Our research scope entails building AI solutions for localized needs. Most of th
 
 ## Research
 
-- [ParsBERT]({{ site.baseurl }}{% link docs/research/parsbert.md %})
+- [ParsBERT]({{ site.baseurl }}{% link /docs/research/parsbert.md %})
 
 
 ## Open Data
 
-- [Persian Sentiment Analysis]({{ site.baseurl }}{% link docs/datasets/sentiment_analysis.md %})
-- [Persian Text Classification]({{ site.baseurl }}{% link docs/datasets/text_classification.md %})
-- [Persian Named Entity Recognition]({{ site.baseurl }}{% link docs/datasets/ner.md %})
+- [Persian Sentiment Analysis]({{ site.baseurl }}{% link /docs/datasets/sentiment_analysis.md %})
+- [Persian Text Classification]({{ site.baseurl }}{% link /docs/datasets/text_classification.md %})
+- [Persian Named Entity Recognition]({{ site.baseurl }}{% link /docs/datasets/ner.md %})
 
 
 ### Contributing

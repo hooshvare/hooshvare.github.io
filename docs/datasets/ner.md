@@ -3,6 +3,7 @@ layout: default
 title: Named Entity Recognition
 parent: Datasets
 nav_order: 7
+permalink: /docs/datasets/ner
 ---
 
 # Persian Named Entity Recognition

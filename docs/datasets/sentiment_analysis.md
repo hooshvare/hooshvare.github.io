@@ -3,6 +3,7 @@ layout: default
 title: Sentiment Analysis
 parent: Datasets
 nav_order: 5
+permalink: /docs/datasets/sa
 ---
 
 # Persian Sentiment Analysis
