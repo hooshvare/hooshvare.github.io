@@ -10,7 +10,10 @@ permalink: /
 ---
 
 # Hooshvare Research Lab
+{: .fs-9 }
+
 Founded in 2020, Hooshvare team consists of young AI enthusiasts who seek to empower the AI scientific community. Hooshvare strives to produce and provide rich scientific and educational material to individuals as well as organizations with an interdisciplinary mindset. Hooshvare research lab is focused on various AI subjects and is currently carrying out multiple research projects mostly centered around NLP applications.
+{: .fs-5 .fw-300 }
 
 
 
@@ -20,14 +23,14 @@ Our research scope entails building AI solutions for localized needs. Most of th
 
 ## Research
 
-- [ParsBERT](https://hooshvare.github.io/)
+- [ParsBERT]({{ site.baseurl }}{% link docs/research/parsbert.md %})
 
 
 ## Open Data
 
-- [Persian Sentiment Analysis](https://hooshvare.github.io/)
-- [Persian Text Classification](https://hooshvare.github.io/)
-- [Persian Named Entity Recognition](https://hooshvare.github.io/)
+- [Persian Sentiment Analysis]({{ site.baseurl }}{% link docs/datasets/sentiment_analysis.md %})
+- [Persian Text Classification]({{ site.baseurl }}{% link docs/datasets/text_classification.md %})
+- [Persian Named Entity Recognition]({{ site.baseurl }}{% link docs/datasets/ner.md %})
 
 
 ### Contributing
@@ -35,6 +38,15 @@ Our research scope entails building AI solutions for localized needs. Most of th
 When contributing to this repository, please first discuss the change you wish to make via issue,
 email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/hooshvare/hooshvare.github.io).
 
+#### Thank you to the contributors of Just the Docs!
+
+<ul class="list-style-none">
+{% for contributor in site.github.contributors %}
+  <li class="d-inline-block mr-1">
+     <a href="{{ contributor.html_url }}"><img src="{{ contributor.avatar_url }}" width="64" height="64" alt="{{ contributor.login }}"/></a>
+  </li>
+{% endfor %}
+</ul>
 
 
 ### Code of Conduct
