@@ -1,14 +1,3 @@
----
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: default
-title: Home
-nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
-permalink: /
----
-
 # Hooshvare Research Lab
 Founded in 2020, Hooshvare team consists of young AI enthusiasts who seek to empower the AI scientific community. Hooshvare strives to produce and provide rich scientific and educational material to individuals as well as organizations with an interdisciplinary mindset. Hooshvare research lab is focused on various AI subjects and is currently carrying out multiple research projects mostly centered around NLP applications.
 
