@@ -49,7 +49,6 @@ Please cite the following paper in your publication if you are using this datase
     year={2020},
     volume={abs/2005.12515}
 }
-
 ```
 
 ---
@@ -66,7 +65,7 @@ Digikala user comments provided by [Open Data Mining Program (ODMP)](https://www
 
 
 **Download**
-You can download the dataset from [here](https://bit.ly/2ZzATut)
+You can download the dataset from [here](https://www.digikala.com/opendata/)
 
 **Cite**
 
@@ -75,14 +74,6 @@ Please cite the following paper in your publication if you are using this datase
 
 
 ```markdown
-@article{ParsBERT,
-    title={ParsBERT: Transformer-based Model for Persian Language Understanding},
-    author={Mehrdad Farahani, Mohammad Gharachorloo, Marzieh Farahani, Mohammad Manthouri},
-    journal={ArXiv},
-    year={2020},
-    volume={abs/2005.12515}
-}
-
 @misc{digikalanext, 
     title={DigikalaNext: Open Data Mining Program}, 
     url={https://www.digikala.com/opendata/}, 
@@ -119,21 +110,16 @@ which is a balanced and augmented version of SentiPers, contains 12,138 user opi
 
 
 **Download**
-You can download the dataset from [here](https://bit.ly/3ejrbAn)
+You can download the dataset from:
+
+- [SentiPers](https://github.com/phosseini/sentipers)
+- [DeepSentiPers](https://github.com/JoyeBright/DeepSentiPers)
 
 **Cite**
 
 Please cite the following paper in your publication if you are using this dataset in your research:
 
 ```markdown
-@article{ParsBERT,
-    title={ParsBERT: Transformer-based Model for Persian Language Understanding},
-    author={Mehrdad Farahani, Mohammad Gharachorloo, Marzieh Farahani, Mohammad Manthouri},
-    journal={ArXiv},
-    year={2020},
-    volume={abs/2005.12515}
-}
-
 @misc{sharami2020deepsentipers,
     title={DeepSentiPers: Novel Deep Learning Models Trained Over Proposed Augmented Persian Sentiment Corpus},
     author={Javad PourMostafa Roshan Sharami and Parsa Abbasi Sarabestani and Seyed Abolghasem Mirroshandel},
@@ -141,5 +127,11 @@ Please cite the following paper in your publication if you are using this datase
     eprint={2004.05328},
     archivePrefix={arXiv},
     primaryClass={cs.CL}
+}
+@article{hosseini2018sentipers,
+  title={SentiPers: A sentiment analysis corpus for Persian},
+  author={Hosseini, Pedram and Ramaki, Ali Ahmadian and Maleki, Hassan and Anvari, Mansoureh and Mirroshandel, Seyed Abolghasem},
+  journal={arXiv preprint arXiv:1801.07737},
+  year={2018}
 }
 ```

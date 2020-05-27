@@ -52,14 +52,6 @@ Please cite the following paper in your publication if you are using this datase
 
 
 ```markdown
-@article{ParsBERT,
-    title={ParsBERT: Transformer-based Model for Persian Language Understanding},
-    author={Mehrdad Farahani, Mohammad Gharachorloo, Marzieh Farahani, Mohammad Manthouri},
-    journal={ArXiv},
-    year={2020},
-    volume={abs/2005.12515}
-}
-
 @article{shahshahani2018peyma,
     title={PEYMA: A Tagged Corpus for Persian Named Entities},
     author={Mahsa Sadat Shahshahani and Mahdi Mohseni and Azadeh Shakery and Heshaam Faili},
@@ -104,14 +96,6 @@ Please cite the following paper in your publication if you are using this datase
 
 
 ```markdown
-@article{ParsBERT,
-    title={ParsBERT: Transformer-based Model for Persian Language Understanding},
-    author={Mehrdad Farahani, Mohammad Gharachorloo, Marzieh Farahani, Mohammad Manthouri},
-    journal={ArXiv},
-    year={2020},
-    volume={abs/2005.12515}
-}
-
 @inproceedings{poostchi2018bilstm,
     title={BiLSTM-CRF for Persian Named-Entity Recognition ArmanPersoNERCorpus: the First Entity-Annotated Persian Dataset},
     author={Hanieh Poostchi and Ehsan Zare Borzeshi and Massimo Piccardi},
