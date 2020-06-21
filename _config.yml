@@ -4,8 +4,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Founded in 2020, Hooshvare team consists of young AI enthusiasts who seek to empower the AI scientific 
   community. Hooshvare strives to produce and provide rich scientific and educational material to individuals 
   as well as organizations with an interdisciplinary mindset.
-# baseurl: "/"
-# url: "https://hooshvare.github.io"
+baseurl: "/"
+url: "https://hooshvare.github.io"
 twitter_username: hooshvare
 github_username:  hooshvare
 
