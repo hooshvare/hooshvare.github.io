@@ -19,18 +19,25 @@ permalink: /docs/research/parsbert
 
 ## ParsBERT: Transformer-based Model for Persian Language Understanding
 
-ParsBERT is a monolingual language model based on Google’s BERT architecture with the same configurations as BERT-Base. 
+ParsBERT is a monolingual language model based on Google’s BERT architecture. This model is pre-trained on large Persian corpora with various writing styles from numerous subjects (e.g., scientific, novels, news) with more than `3.9M` documents, `73M` sentences, and `1.3B` words. 
 
 Paper presenting ParsBERT: [arXiv:2005.12515](https://arxiv.org/abs/2005.12515)
+
+All the models (downstream tasks) are uncased and trained with whole word masking. (coming soon stay tuned)
 
 
 ---
 
 ## Introduction
 
-This model is pre-trained on a large Persian corpus with various writing styles from numerous subjects (e.g., scientific, novels, news) with more than 2M documents. A large subset of this corpus was crawled manually.
+ParsBERT trained on a massive amount of public corpora ([Persian Wikidumps](https://dumps.wikimedia.org/fawiki/), [MirasText](https://github.com/miras-tech/MirasText)) and six other manually crawled text data from a various type of websites ([BigBang Page](https://bigbangpage.com/) `scientific`, [Chetor](https://www.chetor.com/) `lifestyle`, [Eligasht](https://www.eligasht.com/Blog/) `itinerary`,  [Digikala](https://www.digikala.com/mag/) `digital magazine`, [Ted Talks](https://www.ted.com/talks) `general conversational`, Books `novels, storybooks, short stories from old to the contemporary era`).
 
-As a part of ParsBERT methodology, an extensive pre-processing combining POS tagging and WordPiece segmentation was carried out to bring the corpus into a proper format. This process produces more than 40M true sentences. 
+As a part of ParsBERT methodology, an extensive pre-processing combining POS tagging and WordPiece segmentation was carried out to bring the corpora into a proper format. 
+
+
+[![ParsBERT Demo](/assets/parsbert-playground.png)](https://www.youtube.com/watch?v=Fyirkq668PE)
+
+[ParsBERT Playground](http://lab.hooshvare.com/)
 
 
 ## Evaluation
@@ -101,6 +108,15 @@ model = AutoModel.from_pretrained("HooshvareLab/bert-base-parsbert-uncased")
 ```
 
 
+## NLP Tasks Tutorial 
+
+- [Named Entity Recognition](https://github.com/hooshvare/parsbert-ner)
+- Sentiment (soon).
+- Text Classification (soon).
+- Topic modeling (soon).
+- Question Answering (soon).
+
+
 ## Cite 
 
 Please cite the following paper in your publication if you are using [ParsBERT](https://arxiv.org/abs/2005.12515) in your research:
@@ -121,7 +137,7 @@ Please cite the following paper in your publication if you are using [ParsBERT](
 We hereby, express our gratitude to the [Tensorflow Research Cloud (TFRC) program](https://tensorflow.org/tfrc) for providing us with the necessary computation resources. We also thank [Hooshvare](https://hooshvare.com) Research Group for facilitating dataset gathering and scraping online text resources.
 
 
-## Contributing
+## Contributors
 
 - Mehrdad Farahani: [Linkedin](https://www.linkedin.com/in/m3hrdadfi/), [Twitter](https://twitter.com/m3hrdadfi), [Github](https://github.com/m3hrdadfi)
 - Mohammad Gharachorloo:  [Linkedin](https://www.linkedin.com/in/mohammad-gharachorloo/), [Twitter](https://twitter.com/MGharachorloo), [Github](https://github.com/baarsaam)
